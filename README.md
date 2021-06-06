@@ -16,6 +16,10 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 -Add an internal statistic tracking system
 -Add a graphic user interface
 
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 # Donations
 With your help, I will be able to keep working on this project and add new features. 
 
