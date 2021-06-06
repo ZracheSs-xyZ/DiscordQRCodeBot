@@ -13,9 +13,9 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 
 # To Do
 - [x] Create a QR Code Bot
-- [] Create a payout script (coming very soon...)
-- [] Add an internal statistic tracking system
-- [] Add a graphic user interface
+- [ ] Create a payout script (coming very soon...)
+- [ ] Add an internal statistic tracking system
+- [ ] Add a graphic user interface
 
 # Donations
 With your help, I will be able to keep working on this project and add new features. 
