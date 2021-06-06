@@ -41,7 +41,7 @@ async def on_message(message):
             QrCode = getQRCode(accessToken)
             # Send the QrCode the the user who asked for
             await message.author.send(
-                "------------------------------------------------\n\n\n\n\nHello " + message.author.name + "\nHere is your new QR Code to login : ")
+                "------------------------------------------------\n\n\nHello " + message.author.name + "\nHere is your new QR Code to login : ")
             await message.author.send(file=discord.File('QRCode.png'))
             return
         else:
