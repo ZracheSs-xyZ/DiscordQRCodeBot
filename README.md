@@ -27,5 +27,5 @@ With your help, I will be able to keep working on this project and add new featu
 # Help
 If you need help with setup or you have any question, please reach out to me!
 
-*Twitter : https://twitter.com/ZracheSs
-*Discord : https://discord.com/invite/837cCXPd48
+* Twitter : https://twitter.com/ZracheSs
+* Discord : https://discord.com/invite/837cCXPd48
