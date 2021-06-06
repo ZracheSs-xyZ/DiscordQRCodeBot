@@ -3,12 +3,12 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 
 
 # Setup
-1- Run Ubuntu on AWS ec2 instance
-2- Dowloads all the files
-3- Open the SecretStorage file and update it with the information of your scholars
-4- Install the requiered modules by running in your shell:
+1. Run Ubuntu on AWS ec2 instance
+2. Dowloads all the files
+3. Open the SecretStorage file and update it with the information of your scholars
+4. Install the requiered modules by running in your shell:
     pip install -r requirements.txt
-5- Run the script by running in your shell :
+5. Run the script by running in your shell :
     python3 ./DiscordBot.py
 
 # To Do
