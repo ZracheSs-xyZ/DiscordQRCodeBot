@@ -7,9 +7,9 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 2. Dowloads all the files
 3. Open the SecretStorage file and update it with the information of your scholars
 4. Install the requiered modules by running in your shell:
-    > pip install -r requirements.txt
+`<pip install -r requirements.txt>`
 5. Run the script by running in your shell :
-    > python3 ./DiscordBot.py
+`<python3 ./DiscordBot.py>`
 
 # To Do
 - [x] Create a QR Code Bot
@@ -17,9 +17,6 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 - [ ] Add a graphic user interface
 - [ ] Add an internal statistic tracking system
 - [ ] So much more...
-
-
-`<addr>`
 
 # Donations
 With your help, I will be able to keep working on this project and add new features. 
