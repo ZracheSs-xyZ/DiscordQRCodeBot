@@ -3,12 +3,17 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 
 # Setup
 1. Run Ubuntu on AWS ec2 instance
-2. Dowloads all the files in your instance
-3. Open the SecretStorage.py file and update it with the information of your scholars
-4. Install the requiered modules by running :
+2. Clone the file by running :
+* `git clone https://github.com/ZracheSs-xyZ/DiscordQRCodeBot`
+3. Create the requierements by running :
+* `pip freeze > requirements.txt`
+4. Install the requiered by running :
 * `pip install -r requirements.txt`
 5. Run the script by running :
 * `python3 ./DiscordBot.py`
+
+After that, create a Discord Bot and put the Secret Token in the SecretStorage.py file.
+You will also need update that file with the information of your scholars.
 
 # To Do
 - [x] Create a QR Code Bot
