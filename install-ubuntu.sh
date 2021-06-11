@@ -17,9 +17,6 @@ sudo apt-get install -y libcairo2-dev libgirepository1.0-dev
 
 echo "Updating requirements file"
 cd $homedir/DiscordQRCodeBot
-rm requirements.txt
-
-cd $homedir/DiscordQRCodeBot
 pip freeze > requirements.txt
 
 echo "Installing application requirements"
