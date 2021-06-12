@@ -24,6 +24,7 @@ pip3 install -r requirements.txt
 pip3 install discord
 pip3 install qrcode
 pip3 install web3
+pip3 install Image
 pip install pillow
 
 
