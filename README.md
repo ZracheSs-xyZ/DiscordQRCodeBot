@@ -24,7 +24,7 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 - [ ] So much more...
 
 # bug to fix
-- [ ] Current time isn't displayed correcly
+- [x] Current time isn't displayed correcly
 - [ ] Please tell me if you experience any bugs...
 
 # Donations
