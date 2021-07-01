@@ -1,6 +1,7 @@
 import requests
 import json
 import qrcode
+import os
 from web3.auto import w3
 from eth_account.messages import encode_defunct
 
@@ -50,6 +51,11 @@ def getQRCode(accessToken):
 
     # Make an image as a QR Code from the accessToken
     img = qrcode.make(accessToken)
+    
+    #remove first the image if exists before generating a new one to avoid sending a cache image that cause of multi account
+    if os.path.exists('QRCode.png'):
+        os.remove('QRCode.png')
+    
     # Save the image
     img.save('QRCode.png')
     return
