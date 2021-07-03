@@ -3,7 +3,6 @@ from SecretStorage import *
 from QRCodeBot import *
 from datetime import datetime
 
-now = datetime.now()
 client = discord.Client()
 
 @client.event
@@ -18,6 +17,7 @@ async def on_message(message):
         return
     # If the user writes $qr
     if message.content == "$qr":
+        now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
         print('\n')
         # This for loop check for all the user's DiscordID in the Database
