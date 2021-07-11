@@ -1,7 +1,3 @@
-# THIS PROJECT HAS BEEN DISCONTINUED
-
-
-
 # DiscordQRCodeBot
 This is a Discord script that will provide a QR Code to your Axie Infinity scholars.
 
@@ -22,7 +18,7 @@ This is a Discord script that will provide a QR Code to your Axie Infinity schol
 
 # Upcoming new features
 - [x] Create a QR Code Bot
-- [ ] Create a payout script (coming very soon)
+- [x] Create a payout script : https://github.com/ZracheSs-xyZ/PayoutScript-xyZ
 - [ ] Add a graphic user interface
 - [ ] Add an internal statistic tracking system
 - [ ] So much more...
