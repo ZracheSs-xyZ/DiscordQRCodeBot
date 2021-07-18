@@ -1,3 +1,6 @@
+THIS VERSION IS DISCONTINUED... FOR THE NEW VERSION, PLEASE CHECK OUT :
+
+
 # DiscordQRCodeBot
 This is a Discord script that will provide a QR Code to your Axie Infinity scholars.
 
