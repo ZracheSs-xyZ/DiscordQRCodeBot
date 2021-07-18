@@ -46,16 +46,18 @@ def submitSignature(signedMessage, message, accountAddress):
     # Return the accessToken value
     return json_data['data']['createAccessTokenWithSignature']['accessToken']
 
-def getQRCode(accessToken):
+def getQRCode(accessToken,discordID):
     # Function to create a QRCode from the accessToken
 
     # Make an image as a QR Code from the accessToken
     img = qrcode.make(accessToken)
     
+    qrImg = 'qr/QRCode-'+discordID+'.png'
+    
     #remove first the image if exists before generating a new one to avoid sending a cache image that cause of multi account
-    if os.path.exists('QRCode.png'):
-        os.remove('QRCode.png')
+    if os.path.exists(qrImg):
+        os.remove(qrImg)
     
     # Save the image
-    img.save('QRCode.png')
+    img.save(qrImg)
     return
