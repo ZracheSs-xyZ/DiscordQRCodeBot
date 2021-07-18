@@ -1,5 +1,5 @@
 # THIS VERSION IS DISCONTINUED...
-#FOR THE NEW VERSION, PLEASE CHECK OUT :
+# FOR THE NEW VERSION, PLEASE CHECK OUT :
 https://github.com/ZracheSs-xyZ/QrCodeBot-xyZ
 
 # DiscordQRCodeBot
