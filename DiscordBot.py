@@ -2,6 +2,11 @@ import discord
 from SecretStorage import *
 from QRCodeBot import *
 from datetime import datetime
+from pathlib import Path
+
+#initializing qr folder
+from pathlib import Path
+Path("qr").mkdir(parents=True, exist_ok=True)
 
 client = discord.Client()
 
@@ -25,6 +30,11 @@ async def on_message(message):
             print("This user received his QR Code : " + message.author.name)
             print("Discord ID : " + str(message.author.id))
             print("Current time : ", current_time)
+            
+            #converting discordID to string
+            discordID = str(message.author.id)
+            qrImg = 'qr/QRCode-'+discordID+'.png';
+            
             # value with discordID
             botPlaceHolders = ScholarsDict[str(message.author.id)]
             # discordID's privateKey from the database
@@ -38,11 +48,11 @@ async def on_message(message):
             # Get an accessToken by submitting the signature to AxieInfinty
             accessToken = submitSignature(signedMessage, rawMessage, accountAddress)
             # Create a QrCode with that accessToken
-            QrCode = getQRCode(accessToken)
+            QrCode = getQRCode(accessToken,qrImg)
             # Send the QrCode the the user who asked for
             await message.author.send(
                 "------------------------------------------------\n\n\nHello " + message.author.name + "\nHere is your new QR Code to login : ")
-            await message.author.send(file=discord.File('QRCode.png'))
+            await message.author.send(file=discord.File(qrImg))
             return
         else:
             print("This user didn't receive a QR Code : " + message.author.name)
